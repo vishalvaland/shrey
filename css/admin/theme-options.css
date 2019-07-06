@@ -1,0 +1,36 @@
+/**
+ * Custom Theme Option
+ */
+
+@media screen and (min-width: 768px) {
+    .fw-options-tabs-list {
+        float: left;
+        width: 230px !important;
+        padding-bottom: 0;
+    }
+    .fw-options-tabs-list li{
+    	float: none;
+    	width: 100%;
+    }
+    .fw-options-tabs-list li a.fw-wp-link {
+	width: 100%;
+    display: block;
+    background: #eaeaea;
+    border: 1px solid forestgreen;
+        box-sizing: border-box;
+    margin: 0;
+    }
+    .fw-options-tabs-contents {
+        margin-left:  230px !important;
+        overflow: hidden;
+    }
+    .fw-settings-form .form-footer-buttons{
+    	position: sticky;
+    bottom: 0;
+    background-color: yellow;
+    padding: 8px;
+    text-align: right;
+    background: #dfdddd;
+    border: 1px solid #bebebe;
+    }
+}
