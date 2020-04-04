@@ -4,7 +4,7 @@
 
 $options = array(
 	'shop' => array(
-		'title' => __('shop', 'unyson'),
+		'title' => __('Shop', 'unyson'),
 		'type' => 'tab',
 		'options' => array(
 			'general-box' => array(

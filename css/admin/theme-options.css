@@ -1,9 +1,21 @@
 /**
  * Custom Theme Option
  */
-
+.fw-backend-side-tabs .fw-settings-form-header{
+	 background-color: #1fc8db  !important;
+    background-image: linear-gradient(141deg, #775af6 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+.fw-backend-side-tabs .fw-settings-form-header h2 {
+    font-weight: 700 !important;
+    letter-spacing: 2px  !important;
+}
+.fw-backend-side-tabs .fw-options-tabs-first-level > .fw-options-tabs-list ul li.ui-state-active a.nav-tab, .fw-backend-side-tabs .fw-options-tabs-first-level > .fw-options-tabs-list ul li.ui-state-active a.nav-tab:hover {
+       color: #fff !important;
+    background-color: #1fc8db  !important;
+    
+}
 @media screen and (min-width: 768px) {
-    .fw-options-tabs-list {
+    /*  .fw-options-tabs-list {
         float: left;
         width: 230px !important;
         padding-bottom: 0;
@@ -23,14 +35,14 @@
     .fw-options-tabs-contents {
         margin-left:  230px !important;
         overflow: hidden;
+    } */
+    .fw-settings-form .form-footer-buttons {
+        position: sticky !important;
+        bottom: 0 !important;
     }
-    .fw-settings-form .form-footer-buttons{
-    	position: sticky;
-    bottom: 0;
-    background-color: yellow;
-    padding: 8px;
-    text-align: right;
-    background: #dfdddd;
-    border: 1px solid #bebebe;
+    .fw-settings-form .form-footer-buttons input {
+        float: right !important;
+        margin-right: 25px !important;
+        margin-left: 0 !important;
     }
 }

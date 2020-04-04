@@ -48,7 +48,7 @@ add_action('wp_enqueue_scripts', 'shrey_scripts');
 if (!function_exists('shrey_admin_scripts') && is_admin() && isset($_GET['page']) && $_GET['page'] == 'fw-settings'):
 
 	function shrey_admin_scripts() {
-		wp_enqueue_style('jevelin-theme-options', get_template_directory_uri() . '/css/admin/theme-options.css');
+		wp_enqueue_style('shrey-theme-options', get_template_directory_uri() . '/css/admin/theme-options.css');
 	}
 	add_action('admin_enqueue_scripts', 'shrey_admin_scripts');
 
