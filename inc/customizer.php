@@ -43,6 +43,7 @@ function shrey_customize_partial_blogname() {
  * @return void
  */
 function shrey_customize_partial_blogdescription() {
+	
 	bloginfo( 'description' );
 }
 
