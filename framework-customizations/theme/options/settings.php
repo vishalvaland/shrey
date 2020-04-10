@@ -24,5 +24,5 @@ $options = array(
 	// fw()->theme->get_options('advance'),
 	// fw()->theme->get_options('custom-code'),
 	// fw()->theme->get_options('import-export'),
-	fw()->theme->get_options('demo-box'),
+	// fw()->theme->get_options('demo-box'),
 );
